@@ -3,10 +3,10 @@ name: Automated Testing
 on:
   push:
     branches:
-      - main  # Modify this to match your branch name
+      - master  # Modify this to match your branch name
   pull_request:
     branches:
-      - main  # Modify this to match your branch name
+      - master  # Modify this to match your branch name
 
 jobs:
   test:

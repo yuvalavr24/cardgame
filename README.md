@@ -21,7 +21,7 @@ Unit tests: The program includes unit tests to ensure the correctness of the cla
 
 ## Requirements
 Python 3.x
-No additional libraries or dependencies required
+No additional libraries or dependencies required, except for the standard random module.
 
 ## How to Run
 To run the game, simply download or clone the entire project directory onto your local machine. Then, navigate to the project directory in your terminal or command prompt and execute the main.py file using Python:
@@ -30,10 +30,8 @@ To run the game, simply download or clone the entire project directory onto your
 python3 main.py
 ```
 
-The program will automatically import the necessary classes (Card, CardGame, DeckOfCards, and Player) from the same directory as main.py. You don't need to separately save or import the individual class files.
-
 ## Unit Tests
-
+The program will automatically import the necessary classes (Card, CardGame, DeckOfCards, and Player) from the same directory as main.py. You don't need to separately save or import the individual class files.
 If you're using PyCharm, you can run unit tests directly from the PyCharm interface instead of using terminal commands. 
 Open your PyCharm project.
 Navigate to the test file in the Project tool window.

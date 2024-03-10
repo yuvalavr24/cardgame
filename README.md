@@ -26,32 +26,20 @@ No additional libraries or dependencies required
 ## How to Run
 To run the game, simply download or clone the entire project directory onto your local machine. Then, navigate to the project directory in your terminal or command prompt and execute the main.py file using Python:
 
+```bash
 python3 main.py
+```
 
 The program will automatically import the necessary classes (Card, CardGame, DeckOfCards, and Player) from the same directory as main.py. You don't need to separately save or import the individual class files.
 
-Unit Tests
-To run the unit tests for each class, follow these steps:
+## Unit Tests
 
-Download or clone the project directory onto your local machine.
-Navigate to the project directory in your terminal or command prompt.
-Execute the respective test files for each class using Python:
-
-To run unit tests for the Card class:
-
-- python3 Test_Card.py
-
-To run unit tests for the CardGame class:
-
-- python3 Test_CardGame.py
-
-To run unit tests for the DeckOfCards class:
-
-- python3 Test_DeckOfCards.py
-
-To run unit tests for the Player class:
-
-- python3 Test_Player.py
+If you're using PyCharm, you can run unit tests directly from the PyCharm interface instead of using terminal commands. 
+Open your PyCharm project.
+Navigate to the test file in the Project tool window.
+Right-click on the test file and select "Run 'Test_Name'" or "Run 'Test_Name' with Coverage" from the context menu.
+PyCharm will execute the unit tests and display the results in the "Run" tool window.
+By running the tests through PyCharm, you can take advantage of its features such as test result visualization, debugging, and coverage analysis.
 
 ## Contributions
 Contributions are welcome! If you find any issues or have suggestions for improvements, feel free to open an issue or submit a pull request.

@@ -31,12 +31,11 @@ python3 main.py
 ```
 
 ## Unit Tests
-The program will automatically import the necessary classes (Card, CardGame, DeckOfCards, and Player) from the same directory as main.py. You don't need to separately save or import the individual class files.
-If you're using PyCharm, you can run unit tests directly from the PyCharm interface instead of using terminal commands. 
-Open your PyCharm project.
-Navigate to the test file in the Project tool window.
-Right-click on the test file and select "Run 'Test_Name'" or "Run 'Test_Name' with Coverage" from the context menu.
-PyCharm will execute the unit tests and display the results in the "Run" tool window.
+If you're using PyCharm, you can run unit tests directly from the PyCharm interface instead of using terminal commands:
+- Open your PyCharm project.
+- Navigate to the test file in the Project tool window.
+- Right-click on the test file and select "Run 'Test_Name'" or "Run 'Test_Name' with Coverage" from the context menu.
+- PyCharm will execute the unit tests and display the results in the "Run" tool window.
 By running the tests through PyCharm, you can take advantage of its features such as test result visualization, debugging, and coverage analysis.
 
 ## Contributions

@@ -4,20 +4,13 @@
 ## Overview
 War (also known as Battle in the United Kingdom) is a simple card game typically played by two players using a standard playing card deck. The objective of the game is to win all of the cards. In this implementation, the player with the higher number of cards at the end of 10 rounds is declared the winner.
 
-## How to Play
-To play the game, follow these steps:
-
-- Run the main Python program main.py.
-- Enter the names of the two players.
-- View the cards dealt to each player.
-- Watch as the game progresses through 10 rounds.
-- At the end of the game, the winner will be declared.
 
 ## Features
-Object-oriented design: The game is implemented using classes and objects, making it modular and easy to understand.
-Customizable: Players can enter their names and initial number of cards.
-Interactive: The game prints out the moves and waits between rounds to build tension.
-Unit tests: The program includes unit tests to ensure the correctness of the classes.
+- **Clean Architecture:** Well-structured Python modules and classes that facilitate maintenance and extension  
+- **CLI Integration:** User-friendly command-line experience with input prompts and options  
+- **Customizable Gameplay:** Dynamic player names and adjustable round counts  
+- **Real-time Feedback:** Step-by-step game state updates with controlled pacing for readability  
+- **Test Coverage:** Comprehensive unit tests to validate core functionality
 
 ## Requirements
 - Python 3.7 or higher  
@@ -25,22 +18,31 @@ Unit tests: The program includes unit tests to ensure the correctness of the cla
 - No additional third-party dependencies  
 
 ## Setup
-1. Clone the repository:
+Clone the repository:
 ```bash
 git clone https://github.com/yourusername/cardgame-cli-app.git
-cd cardgame-cli-app
-python3 cli.py
 ```
-2. 
+Install package:
+```bash
+pip install --user .
+```
 
-## Unit Tests
-If you're using PyCharm, you can run unit tests directly from the PyCharm interface instead of using terminal commands:
-- Open your PyCharm project.
-- Navigate to the test file in the Project tool window.
-- Right-click on the test file and select "Run `Test-Name`" or "Run `Test-Name` with Coverage" from the context menu.
-- PyCharm will execute the unit tests and display the results in the "Run" tool window.
+Verify Installation:
+```bash
+pip list
+# Confirm that 'cardgame' version 1.0.0 is installed
+```
 
-By running the tests through PyCharm, you can take advantage of its features such as test result visualization, debugging, and coverage analysis.
+Run CLI:
+```bash
+cardgame --player1 <player1-name> --player2 <player2-name> 
+```
+
+## Testing
+```bash
+pytest tests/
+```
+If using an IDE such as PyCharm, tests can be run and debugged directly within the interface, offering visualization and coverage tools.
 
 ### License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE.md) file for details.

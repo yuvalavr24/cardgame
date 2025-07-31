@@ -1,5 +1,5 @@
-from player import Player
-from deck import DeckOfCards
+from .player import Player
+from .deck import DeckOfCards
 
 
 class CardGame:

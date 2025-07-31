@@ -1,4 +1,4 @@
-from game import CardGame
+from .game import CardGame
 import time
 import click
 

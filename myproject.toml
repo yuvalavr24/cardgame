@@ -1,8 +1,0 @@
-# pyproject.toml
-[project]
-name = "cardgame_cli_app"
-version = "0.1.0"
-dependencies = ["click"]
-
-[project.scripts]
-cardgame_cli_app = "cardgame_cli_app.cli:start"

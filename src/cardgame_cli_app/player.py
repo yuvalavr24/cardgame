@@ -1,6 +1,6 @@
 import random
-from DeckOfCards import DeckOfCards
-from Card import Card
+from .deck import DeckOfCards
+from .card import Card
 
 
 class Player:

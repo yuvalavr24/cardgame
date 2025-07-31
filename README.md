@@ -20,7 +20,7 @@ War (also known as Battle in the United Kingdom) is a simple card game typically
 ## Setup
 Clone the repository:
 ```bash
-git clone https://github.com/yourusername/cardgame-cli-app.git
+git clone https://github.com/<username>/cardgame.git
 ```
 Install package:
 ```bash

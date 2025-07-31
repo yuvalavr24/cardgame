@@ -1,5 +1,5 @@
-# War Card Game 🃏
-Welcome to the War Card Game repository! This Python program allows you to play the classic card game of War, where players compete to win all the cards in the deck.
+# War Card Game CLI 🃏
+**War Card Game CLI** is a modular, object-oriented Python application implementing the classic two-player card game *War* with a command-line interface (CLI). Designed with clean architecture and interactive gameplay, this project demonstrates advanced Python programming principles and CLI development best practices.
 
 ## Overview
 War (also known as Battle in the United Kingdom) is a simple card game typically played by two players using a standard playing card deck. The objective of the game is to win all of the cards. In this implementation, the player with the higher number of cards at the end of 10 rounds is declared the winner.
@@ -20,15 +20,18 @@ Interactive: The game prints out the moves and waits between rounds to build ten
 Unit tests: The program includes unit tests to ensure the correctness of the classes.
 
 ## Requirements
-Python 3.x
-No additional libraries or dependencies required, except for the standard random module.
+- Python 3.7 or higher  
+- [`click`](https://pypi.org/project/click/) (install via `pip install click`)  
+- No additional third-party dependencies  
 
-## How to Run
-To run the game, simply download or clone the entire project directory onto your local machine. Then, navigate to the project directory in your terminal or command prompt and execute the main.py file using Python:
-
+## Setup
+1. Clone the repository:
 ```bash
-python3 main.py
+git clone https://github.com/yourusername/cardgame-cli-app.git
+cd cardgame-cli-app
+python3 cli.py
 ```
+2. 
 
 ## Unit Tests
 If you're using PyCharm, you can run unit tests directly from the PyCharm interface instead of using terminal commands:
@@ -38,9 +41,6 @@ If you're using PyCharm, you can run unit tests directly from the PyCharm interf
 - PyCharm will execute the unit tests and display the results in the "Run" tool window.
 
 By running the tests through PyCharm, you can take advantage of its features such as test result visualization, debugging, and coverage analysis.
-
-## Contributions
-Contributions are welcome! If you find any issues or have suggestions for improvements, feel free to open an issue or submit a pull request.
 
 ### License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE.md) file for details.

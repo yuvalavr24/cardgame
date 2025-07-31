@@ -1,5 +1,5 @@
-# War Card Game CLI 🃏
-**War Card Game CLI** is a modular, object-oriented Python application implementing the classic two-player card game *War* with a command-line interface (CLI). Designed with clean architecture and interactive gameplay, this project demonstrates advanced Python programming principles and CLI development best practices.
+# War CardGame🃏
+**cardgame** is a modular, object-oriented Python application implementing the classic two-player card game *War* with a command-line interface (CLI). Designed with clean architecture and interactive gameplay.
 
 ## Overview
 War (also known as Battle in the United Kingdom) is a simple card game typically played by two players using a standard playing card deck. The objective of the game is to win all of the cards. In this implementation, the player with the higher number of cards at the end of 10 rounds is declared the winner.

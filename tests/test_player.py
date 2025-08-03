@@ -1,8 +1,8 @@
 from unittest import TestCase
 from unittest.mock import patch
-from Card import Card
-from DeckOfCards import DeckOfCards
-from Player import Player
+from cardgame.card import Card
+from cardgame.deck import DeckOfCards
+from cardgame.player import Player
 
 
 class TestPlayer(TestCase):
@@ -44,7 +44,7 @@ class TestPlayer(TestCase):
 
     def test_set_hand_valid(self):
         # Using mock for set_hand which calling to deal_one, and check if the cards were added to the player's hand.
-        with patch("DeckOfCards.DeckOfCards.deal_one") as mock_set_hand:
+        with patch("cardgame.deck.DeckOfCards.deal_one") as mock_set_hand:
             mock_card = Card(1, 4)
             mock_set_hand.return_value = mock_card
             self.player.set_hand(self.deck)

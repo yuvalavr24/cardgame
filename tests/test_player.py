@@ -1,8 +1,8 @@
 from unittest import TestCase
 from unittest.mock import patch
-from Card import Card
-from DeckOfCards import DeckOfCards
-from Player import Player
+from cardgame.card import Card
+from cardgame.deck import DeckOfCards
+from cardgame.player import Player
 
 
 class TestPlayer(TestCase):

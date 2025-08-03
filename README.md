@@ -6,7 +6,6 @@ War (also known as Battle in the United Kingdom) is a simple card game typically
 
 
 ## Features
-- **Clean Architecture:** Well-structured Python modules and classes that facilitate maintenance and extension  
 - **CLI Integration:** User-friendly command-line experience with input prompts and options  
 - **Customizable Gameplay:** Dynamic player names and adjustable round counts  
 - **Real-time Feedback:** Step-by-step game state updates with controlled pacing for readability  
@@ -37,12 +36,6 @@ Run CLI:
 ```bash
 cardgame --player1 <player1-name> --player2 <player2-name> 
 ```
-
-## Testing
-```bash
-pytest tests/
-```
-If using an IDE such as PyCharm, tests can be run and debugged directly within the interface, offering visualization and coverage tools.
 
 ### License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE.md) file for details.

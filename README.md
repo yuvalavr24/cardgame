@@ -37,5 +37,10 @@ Run CLI:
 cardgame --player1 <player1-name> --player2 <player2-name> 
 ```
 
+Set the number of rounds with --rounds(defaults to 10 if not specified)
+```bash
+cardgame --player1 <player1-name> --player2 <player2-name> --rounds <rounds-number>
+```
+
 ### License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE.md) file for details.
